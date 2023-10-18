@@ -1,5 +1,5 @@
 {
-  "name": "widget-creator",
+  "name": "sendmailapp",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
@@ -9,21 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beezwax/recruiting-widget-creator.git"
+    "url": "https://github.com/danizavtz/sendmailapp"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
-  },
-  "nodemonConfig": {
-    "ext": "js",
-    "ignore": [
-      "public/*",
-      "widget-data.json"
-    ],
-    "verbose": false
+    "express": "^4.18.2"
   }
 }
